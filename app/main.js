@@ -12,7 +12,7 @@ function exibirOsLivrosNaTela(listaDeLivros){
     livros.forEach(livro => {
         secaoLivros.innerHTML+=`
         <div class="livro">
-            <img class="livro__imagens" src="${livro.imagem}" alt="${livro.alt}" />
+            <img class="livro__imagens ${livro.quantidade == 0 ? "indisponivel" : ""}" src="${livro.imagem}" alt="${livro.alt}" />
             <h2 class="livro__titulo">
             ${livro.titulo}
             </h2>
