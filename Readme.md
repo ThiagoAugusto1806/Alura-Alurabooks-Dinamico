@@ -32,5 +32,3 @@ Coleção de imagens de capas dos livros presentes na API.
 - `requisicao.txt`:  Contém o link da API utilizada na requisição.
 - `style.css`: Estilos CSS utilizado na apresentação visual da aplicação web.
 
-## 🕵️‍♀️ Mistérios por Desvendar
-
